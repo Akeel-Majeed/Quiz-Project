@@ -43,6 +43,7 @@ class Option(Question):
                     score -= 1
             print("this is the end of the quiz thanks for participating! your score is {}".format(score))
 
+#feel free to add/change questionas and answers if you like!
 quiz = Option(["30 - 4 + 23 = ?", "6 x 9 + 6 + 9 = ?", "What is pi to 3 significant figures?", "tan(45) = ?", "what is the cube root of 27", "Add the appropiate operations to make this correct:\n0 0 0 = 6"], ["49", "69", "3.14", "1*", "3", "(0! + 0! + 0!)! = 6"], ["\n(a) Tony Blair\n(b) 26\n(c) 49", "\n(a) 69\n(b) Tekashi\n(c) 420", "\n(a) 3.13\n(b) 3.14\n(c) 3.17", "\n(a) 69*\n(b) 1*\n(c) 45*", "\n(a)3\n(b) 4\n(c) 5", "\n(a) 0! + 0! + 0! = 6\n(b) sqrt of 0! + 0! + 0! = 6\n(c) (0! + 0! + 0!)! = 6 "], ["c", "a", "b", "b", "a", "c"] )
 
 print("Welcome to the quiz!\nCorrect answers win you a point!\nBe careful, as incorrect answers lose you a point!\n")
